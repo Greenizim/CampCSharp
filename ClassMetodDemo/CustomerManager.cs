@@ -10,10 +10,23 @@ namespace ClassMetodDemo
         {
             Console.WriteLine("Customer" + customer.Name + " was added");
         }
-        public static void customerDel(Customer customer)
+        public void customerList(params Customer[] customers)
         {
-            Console.WriteLine("Customer" + customer.Name + " was deleted");
-        }
+            foreach (Customer customer in customers)
+            {
+                Console.WriteLine(
+                                  @$"Customer ID : {customer.Id} \n 
+                                     Customer Name: {customer.Name} \n  
+                                     Customer Surname: {customer.SurName} \n 
+                                     ********************************"
+                                 );
+            }
 
+
+        }
+        public static void customerList(Customer customer)
+        {
+            Console.WriteLine("Customer" + customer.Name + " was listed");
+        }
     }
 }

@@ -110,9 +110,5 @@ namespace DeyerVeReferansTipler
             //paramsin sonuna deyisen qoymamaq serti ile!
         }
         #endregion Param Keyword
-
-        #region Arrays
-
-        #endregion Arrays
     }
 }

@@ -5,15 +5,15 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metodlar", "metodlar\metodlar.csproj", "{65A077EA-EE46-4B7A-B690-DC5F515C31D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Riyaziyyat", "Riyaziyyat\Riyaziyyat.csproj", "{EA977C98-EA79-4890-BE9A-DBA2A3F3707A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math", "Riyaziyyat\Math.csproj", "{EA977C98-EA79-4890-BE9A-DBA2A3F3707A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeyerVeReferansTipler", "DeyerVeReferansTipler\DeyerVeReferansTipler.csproj", "{1C9ABC1E-B139-4025-849C-72D06176CF4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{6A484DB0-48B0-4D52-B9B6-F79C884F492A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{6A484DB0-48B0-4D52-B9B6-F79C884F492A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Works", "Works", "{B098C925-2ED2-4102-94CD-5E145F748FDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetodDemo", "ClassMetodDemo\ClassMetodDemo.csproj", "{53FFA941-24F5-4C39-8E3E-C986E80A1CA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMetodDemo", "ClassMetodDemo\ClassMetodDemo.csproj", "{53FFA941-24F5-4C39-8E3E-C986E80A1CA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
