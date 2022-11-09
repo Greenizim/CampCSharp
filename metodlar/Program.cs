@@ -6,40 +6,40 @@ namespace metodlar
     {
         static void Main(string[] args)
         {
-            string ununAdi = "Elma";
-            double fiyati = 15;
-            string aciklama = "Amasya elması";
+            string mehsulAdi = "Elma";
+            double qiymeti = 15;
+            string aciqlama = "Qirmizi alma";
 
-            Urun urun1 = new Urun();
-            urun1.Adi = "Elma";
-            urun1.Fiyati = 15;
-            urun1.Aciklama = "Amasya elması";
-            Urun urun2 = new Urun();
-            urun2.Adi = "Karpuz";
-            urun2.Fiyati = 80;
-            urun2.Aciklama = "Diyarbakır karpuzu";
+            Mehsul mehsul1 = new Mehsul();
+            mehsul1.Adi = "Alma";
+            mehsul1.Qiymeti = 15;
+            mehsul1.Aciqlama = "Quba almasi";
+            Mehsul mehsul2 = new Mehsul();
+            mehsul2.Adi = "Banan";
+            mehsul2.Qiymeti = 80;
+            mehsul2.Aciqlama = "Yasil banan";
 
-            Urun[] urunler = new Urun[] { urun1, urun2 };
+            Mehsul[] mehsullar = new Mehsul[] { mehsul1, mehsul2 };
 
-            //type-safe -- tip guvenligi
-            foreach (Urun urun in urunler)
+            //type-safe -- tip tehlukesizliyi
+            foreach (Mehsul mehsul in mehsullar)
             {
-                Console .WriteLine(urun.Adi);
-                Console .WriteLine(urun.Fiyati);    
-                Console .WriteLine(urun.Aciklama);
+                Console .WriteLine(mehsul.Adi);
+                Console .WriteLine(mehsul.Qiymeti);    
+                Console .WriteLine(mehsul.Aciqlama);
                 Console .WriteLine("-------------------");
             }
             Console.WriteLine("-------------------Metodlar_________________");
             //instance - ornek
             //encapsulation
 
-            SepetManager sepetManager = new SepetManager();
-            sepetManager.Ekle(urun1);
-            sepetManager.Ekle(urun2);
-            
-            sepetManager.Ekle2("Armud", "Yasil armud", 4, 103);
-            sepetManager.Ekle2("Alma", "Yasil alma", 2, 45);
-            sepetManager.Ekle2("Qarpiz", "Sabirabad qarpizi", 1,65);
+            SebetManager sebetManager = new SebetManager();
+            sebetManager.Ekle(mehsul1);
+            sebetManager.Ekle(mehsul2);
+
+            sebetManager.Ekle2("Armud", "Yasil armud", 4, 103);
+            sebetManager.Ekle2("Alma", "Yasil alma", 2, 45);
+            sebetManager.Ekle2("Qarpiz", "Sabirabad qarpizi", 1,65);
         }
     }
 }

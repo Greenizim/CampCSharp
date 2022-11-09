@@ -4,12 +4,12 @@ using System.Text;
 
 namespace metodlar
 {
-    internal class Urun
+    internal class Mehsul
     {
         public int Id { get; set; }
         public string Adi { get; set; }
-        public double Fiyati { get; set; }
-        public string Aciklama { get; set; }
+        public double Qiymeti { get; set; }
+        public string Aciqlama { get; set; }
         public int StokAdeti { get; set; }
     }
 }
