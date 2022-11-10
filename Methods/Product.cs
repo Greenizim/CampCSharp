@@ -4,7 +4,7 @@ using System.Text;
 
 namespace metodlar
 {
-    internal class Mehsul
+    internal class Product
     {
         public int Id { get; set; }
         public string Adi { get; set; }

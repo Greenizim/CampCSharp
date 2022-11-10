@@ -4,9 +4,9 @@ using System.Text;
 
 namespace metodlar
 {
-    internal class SebetManager
+    internal class CartManager
     { 
-        public void Ekle(Mehsul urun)
+        public void Ekle(Product urun)
         {
             Console.WriteLine("Sebete elave olundu --> : " + urun.Adi);
         }

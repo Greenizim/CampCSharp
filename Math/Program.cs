@@ -6,7 +6,7 @@ namespace Riyaziyyat
     {
         static void Main(string[] args)
         {
-          DordIslem dordIslem = new DordIslem();
+          FourTransactions dordIslem = new FourTransactions();
             dordIslem.Topla(5, 6);
 
             dordIslem.Topla(8, 9);

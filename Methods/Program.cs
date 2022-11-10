@@ -10,19 +10,19 @@ namespace metodlar
             double qiymeti = 15;
             string aciqlama = "Qirmizi alma";
 
-            Mehsul mehsul1 = new Mehsul();
+            Product mehsul1 = new Product();
             mehsul1.Adi = "Alma";
             mehsul1.Qiymeti = 15;
             mehsul1.Aciqlama = "Quba almasi";
-            Mehsul mehsul2 = new Mehsul();
+            Product mehsul2 = new Product();
             mehsul2.Adi = "Banan";
             mehsul2.Qiymeti = 80;
             mehsul2.Aciqlama = "Yasil banan";
 
-            Mehsul[] mehsullar = new Mehsul[] { mehsul1, mehsul2 };
+            Product[] mehsullar = new Product[] { mehsul1, mehsul2 };
 
             //type-safe -- tip tehlukesizliyi
-            foreach (Mehsul mehsul in mehsullar)
+            foreach (Product mehsul in mehsullar)
             {
                 Console .WriteLine(mehsul.Adi);
                 Console .WriteLine(mehsul.Qiymeti);    
@@ -33,7 +33,7 @@ namespace metodlar
             //instance - ornek
             //encapsulation
 
-            SebetManager sebetManager = new SebetManager();
+            CartManager sebetManager = new CartManager();
             sebetManager.Ekle(mehsul1);
             sebetManager.Ekle(mehsul2);
 

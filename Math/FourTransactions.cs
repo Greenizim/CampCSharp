@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Riyaziyyat
 {
-    internal class DordIslem
+    internal class FourTransactions
     {
         public void Topla(int number1, int number2)
         { 
