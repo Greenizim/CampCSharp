@@ -7,7 +7,7 @@ namespace WhileLoop
         static void Main(string[] args)
         {
             int number;
-            Console.WriteLine("Enter a number less than 1000 and I will count for you");
+            Console.WriteLine("Enter a number less than 10000 and I will count for you");
             number = Convert.ToInt16(Console.ReadLine());
             while(number<=10000 )
             {

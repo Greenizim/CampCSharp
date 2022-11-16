@@ -9,7 +9,7 @@ namespace TernaryOperator
             #region If-Else Logic
             bool maritalStat = true;
             string mess;
-            if (maritalStat = true)
+            if (maritalStat == true)
             {
                 mess = "Married";
             }
