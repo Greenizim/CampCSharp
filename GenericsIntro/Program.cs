@@ -9,7 +9,16 @@ namespace GenericsIntro
             GreenList<string> names = new GreenList<string>();
             names.Add("Tencation");
 
-            List
+            Console.WriteLine(names.Length);
+            
+            names.Add("Green");
+
+            Console.WriteLine(names.Length);
+
+            foreach (var name in names.Items)
+            {
+                Console.WriteLine(name);
+            }
         }
     }
 }
