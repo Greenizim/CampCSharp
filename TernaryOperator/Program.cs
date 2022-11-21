@@ -46,6 +46,7 @@ namespace TernaryOperator
                 number % 2 == 1 ? number : -1;
             Console.WriteLine("Result => " + result);
             # endregion Multi Condition Ternary Operator
+
         }
     }
 }
