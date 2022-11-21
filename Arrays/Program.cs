@@ -49,6 +49,7 @@ namespace Arrays
 
             #endregion Multidimensional Array - Cox Olculu Massiv
             Console.ReadLine();
+
         }
     }
 }
