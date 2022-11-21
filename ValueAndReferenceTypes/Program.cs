@@ -91,7 +91,7 @@ namespace DeyerVeReferansTipler
             //ozaman normalda metodun adini deyisib Multiply2 ederdik
             //ama Merhod overloading bize eyni adla ferqli parametrler
             //vermeye imkan yaradir
-            return num1 * num2;
+            return num1 * num2 * num3;
         }
         #endregion
 
