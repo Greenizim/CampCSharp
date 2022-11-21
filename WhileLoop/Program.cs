@@ -13,6 +13,7 @@ namespace WhileLoop
             {
                 Console.WriteLine(number);
                 number++;
+
             }
         }
     }
