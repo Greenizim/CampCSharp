@@ -74,6 +74,7 @@ namespace SwitchCaseStructure
                     break;
             }
             #endregion Seasons Switch
+
         }
     }
 }
