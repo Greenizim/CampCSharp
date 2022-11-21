@@ -15,5 +15,6 @@ namespace metodlar
         {
             Console.WriteLine("Sebete elave olundu --> : " + mehsulAdi);
         }
+
     }
 }
