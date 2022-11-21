@@ -14,6 +14,7 @@ namespace OOP1
             product1.UnitPrice = 63;
             product1.UnitsInStock = 72;
 
+
             Product product2 = new Product {Id = 2, CategoryId = 5, UnitsInStock =5, ProductName = "Defter", UnitPrice = 0.6};
             //PascalCase - classlarda kelimelerin ilk herfi boyukolmalidi
             //camelCase claas deyisen adlarinda ilk kelimenin herfi kicik olmalidi
