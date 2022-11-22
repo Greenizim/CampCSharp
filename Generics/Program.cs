@@ -16,7 +16,7 @@ class MyList<T>//Generic class
     T[] _tempArray;
     public MyList()
     {
-
+        _array= new T[0];
     }
     public void Add(T item)
     {
