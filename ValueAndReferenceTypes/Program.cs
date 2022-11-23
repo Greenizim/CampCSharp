@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace DeyerVeReferansTipler
+namespace ValueAndReferenceTypes
 {
     internal class Program
     {
@@ -9,11 +9,11 @@ namespace DeyerVeReferansTipler
         {
             #region Ref-Out Keywords & Parameters
             Add();
-            Add2(20,30);
+            Add2(20, 30);
             /*nece parametr varsa oqeder deyer yazmaliyiq
               burda number1 ve number 2 ye deyer menimsedir ama biz bunu consoleda gormeyeceyik
               consoleda gormek ucun deyisene deyer menimsedib yazdirmaliyiq*/
-            var result = Add2(20,30);
+            var result = Add2(20, 30);
             var result2 = Add2(20);
             Console.WriteLine(result);
             Console.WriteLine(result2);
@@ -29,17 +29,17 @@ namespace DeyerVeReferansTipler
             var result4 = Add4(out number1, number2);
             Console.WriteLine(result3);
             Console.WriteLine(number1);
-            Console.WriteLine(result4);       
+            Console.WriteLine(result4);
 
             #endregion
 
             #region Method Overloading
-            Console.WriteLine(Multiply(3,5));
-            Console.WriteLine(Multiply(3,5,12));
+            Console.WriteLine(Multiply(3, 5));
+            Console.WriteLine(Multiply(3, 5, 12));
             #endregion Method Overloading
 
             #region Param Keyword
-            Console.WriteLine(Add5(5,7,3,2,1,4,5,6,9));
+            Console.WriteLine(Add5(5, 7, 3, 2, 1, 4, 5, 6, 9));
             #endregion Param Keyword
 
             Console.ReadLine();
@@ -52,8 +52,8 @@ namespace DeyerVeReferansTipler
         #endregion
 
         #region Parameters
-        static /*void*/ int Add2(int number1, int number2 =50 /*c# 'a gelen yenilikle 4+ versiyua olan c# larda metodlarda default parametrlerle
-                                                               * islemek olur yeni number 2 ye deyer verilmese default olaraq 50 ile isleyecek*/  ) 
+        static /*void*/ int Add2(int number1, int number2 = 50 /*c# 'a gelen yenilikle 4+ versiyua olan c# larda metodlarda default parametrlerle
+                                                               * islemek olur yeni number 2 ye deyer verilmese default olaraq 50 ile isleyecek*/  )
         /*voidle return ede bilmerik cunki void icra et islem ele demekdi
         buna gore netice hansi tipde donsun isteyirikse o tipi yaziriq*/
         {
