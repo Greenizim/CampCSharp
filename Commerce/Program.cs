@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace E_Commerce
+namespace Commerce
 {
     internal class Program
     {
@@ -38,9 +38,9 @@ namespace E_Commerce
             for (int i = 0; i < products.Length; i++)
             {
                 Console.WriteLine("ID: " + products[i].id +
-                                  "\nName: " +products[i].name +
-                                  "\nProduction date: " + products[i].productionDate + 
-                                  "\nExpiration date: " + products[i].expirationDate + 
+                                  "\nName: " + products[i].name +
+                                  "\nProduction date: " + products[i].productionDate +
+                                  "\nExpiration date: " + products[i].expirationDate +
                                   "\nPrice: " + products[i].price);
             }
             Console.WriteLine("****************************************************************************");
@@ -50,8 +50,8 @@ namespace E_Commerce
             #region Foreach
             foreach (var prod in products)
             {
-                Console.WriteLine("ID -> " + prod.id + 
-                                  "\nName -> " +prod.name +
+                Console.WriteLine("ID -> " + prod.id +
+                                  "\nName -> " + prod.name +
                                   "\nProduction date -> " + prod.productionDate +
                                   "\nExpiration date -> " + prod.expirationDate +
                                   "\nPrice -> " + prod.price);
@@ -65,10 +65,10 @@ namespace E_Commerce
 
             while (j < products.Length)
             {
-                Console.WriteLine("ID => " + products[j].id + 
-                                  "\nName => " + products[j].name + 
-                                  "\nProduction date => " +products[j].productionDate + 
-                                  "\nExpiration date => " + products[j].expirationDate + 
+                Console.WriteLine("ID => " + products[j].id +
+                                  "\nName => " + products[j].name +
+                                  "\nProduction date => " + products[j].productionDate +
+                                  "\nExpiration date => " + products[j].expirationDate +
                                   "Price => " + products[j].price);
                 j++;
             }

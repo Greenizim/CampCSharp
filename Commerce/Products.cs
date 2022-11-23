@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace E_Commerce
+namespace Commerce
 {
     internal class Products
     {
