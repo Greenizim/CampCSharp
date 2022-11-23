@@ -1,18 +1,27 @@
-﻿//dictionary list key nomrelerine gore daha tez listeleyir
+﻿    #region Program
+//dictionary list key nomrelerine gore daha tez listeleyir
+
+using System.ComponentModel.Design;
 
 MainClass mainClass = new MainClass();
 mainClass.MainStart();
+#endregion Program
 
+    #region Class
 public class Human
 {
     public string Name;
 }
+#endregion Class
 
+    #region Dictionary Lists
 public class MainClass
-{ 
-    Dictionary<int,string> keyValuePairs= new Dictionary<int,string>(); //burda int keyvalue tipidir string ise deyer
+{
+    Dictionary<int, string> keyValuePairs = new Dictionary<int, string>(); //burda int keyvalue tipidir string ise deyer
+    Dictionary<int, Dictionary<int, string>> DicList = new Dictionary<int, Dictionary<int, string>>(); // donecek deyer dictionary sinifdir 
+    Dictionary<int, List<Human>> HumanList = new Dictionary<int, List<Human>>();// heta burda donecek deyer listdide deye bilerik
+    Dictionary<int, Human> humanList = new Dictionary<int, Human>();
 
-    Dictionary<int,Human> humanList= new Dictionary<int,Human>();
     public void MainStart()
     {
         keyValuePairs.Add(1, "Ali");
@@ -35,12 +44,14 @@ public class MainClass
         {
             Console.WriteLine("Item Found! -> " + keyValuePairs[1]);
         }
-        else 
+        else
         {
             Console.WriteLine("Item Not Found!");
         }
     }
+    #endregion Dictionary Lists
 
+    #region Methods
     public string SearchList(int searching)
     {
         string outputValue;
@@ -49,7 +60,7 @@ public class MainClass
         {
             return outputValue;
         }
-        else 
+        else
         {
             return "This Item Is Not In The List!";
         }
@@ -76,3 +87,4 @@ public class MainClass
         return outValue;
     }
 }
+    #endregion Methods
