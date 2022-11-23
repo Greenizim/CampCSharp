@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace metodlar
+namespace Methods
 {
     internal class Program
     {
@@ -24,10 +24,10 @@ namespace metodlar
             //type-safe -- tip tehlukesizliyi
             foreach (Product mehsul in mehsullar)
             {
-                Console .WriteLine(mehsul.Adi);
-                Console .WriteLine(mehsul.Qiymeti);    
-                Console .WriteLine(mehsul.Aciqlama);
-                Console .WriteLine("-------------------");
+                Console.WriteLine(mehsul.Adi);
+                Console.WriteLine(mehsul.Qiymeti);
+                Console.WriteLine(mehsul.Aciqlama);
+                Console.WriteLine("-------------------");
             }
             Console.WriteLine("-------------------Metodlar_________________");
             //instance - ornek
@@ -39,7 +39,7 @@ namespace metodlar
 
             sebetManager.Ekle2("Armud", "Yasil armud", 4, 103);
             sebetManager.Ekle2("Alma", "Yasil alma", 2, 45);
-            sebetManager.Ekle2("Qarpiz", "Sabirabad qarpizi", 1,65);
+            sebetManager.Ekle2("Qarpiz", "Sabirabad qarpizi", 1, 65);
         }
     }
 }

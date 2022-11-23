@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace metodlar
+namespace Methods
 {
     internal class CartManager
-    { 
+    {
         public void Ekle(Product urun)
         {
             Console.WriteLine("Sebete elave olundu --> : " + urun.Adi);

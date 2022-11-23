@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace metodlar
+namespace Methods
 {
     internal class Product
     {
