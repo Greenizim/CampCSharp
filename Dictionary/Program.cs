@@ -1,7 +1,12 @@
 ﻿    #region Program
 //dictionary list key nomrelerine gore daha tez listeleyir
+//using System.Collections.Generic;
 
-using System.ComponentModel.Design;
+//System.Collections.Generic sınıfının altında yer alan Generic Dictionary<> yapısı; eklenen elemanların Key ve Value olarak kayıt edilmesini sağlamaktadır.
+//using System.ComponentModel.Design;
+//Dictionary sınıfı içinde sizin belirleyeceğiniz bir key e uygun olarak değer saklar bu durumun bir zorunluluğu var
+//Key türünü belirlemeniz şarttır (string,int,decimal,float...)
+//bu şekilde değerlere ekle , silme, saydırma işlemleri atayabiliriz
 
 MainClass mainClass = new MainClass();
 mainClass.MainStart();
