@@ -1,5 +1,5 @@
 ﻿using OOP3;
-
+#region Abstraction
 //PersonalFinanceCreditManager personalFinanceCreditManager = new PersonalFinanceCreditManager();
 //personalFinanceCreditManager.Calculate();
 
@@ -10,15 +10,19 @@
 //mortageCreditManager.Calculate();
 
 
+
 ICreditManager personalFinanceCreditManager = new PersonalFinanceCreditManager();
-personalFinanceCreditManager.Calculate();
+
 
 ICreditManager vehicleCreditManager = new VehicleCreditManager();
-vehicleCreditManager.Calculate();
+
 
 ICreditManager mortageCreditManager = new MortageCreditManager();
-mortageCreditManager.Calculate();
 
+//burani ekran olaraq dusunek ordan 3 kreditden birini secir
 //interface'lerde o interface'i implement eden class'in referans nomresini tuta bilir.
 //polymorphism
 
+ApplicationManager applicationManager = new ApplicationManager();
+applicationManager.MakeAnApplication(personalFinanceCreditManager);//burani button olaraq dusunek burdan birini adam secir buttona basanda bu emeliyyat icra olur parametr olaraq onu gonderir
+#endregion Abstraction
