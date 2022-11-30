@@ -13,5 +13,6 @@ namespace OOP3
         //bu o demekdirki egerki biri bu interface'i islederse o bu metoda malik olmaq mecburiyyetindedir bir nece metodda ola biler.
         //}
         void Example();
+        //interface'leri bir birinin eynisi olan ama kod hissesi ferqli olan veziyyetlerde istifade ederik
     }
 }
