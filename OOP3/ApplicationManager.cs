@@ -16,5 +16,12 @@ namespace OOP3
             //bura artig istediyimiz kreditit yollaya bilerik 
             creditManager.Calculate(); 
         }
+        public void MakeALoanPreInformation(List<ICreditManager> credits /*parametr verdik*/ )//kredit on melumatlandirma
+        {
+            foreach (var credit in credits)
+            {
+                credit.Calculate();
+            }
+        }
     }
 }
