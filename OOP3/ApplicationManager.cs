@@ -8,13 +8,25 @@ namespace OOP3
 {
     internal class ApplicationManager
     {
-        public void MakeAnApplication(ICreditManager creditManager/*burda hamisininnreferansini tutan ninterface var*/)
+        //method injection
+        public void MakeAnApplication(List<ICreditManager> creditManagers /*ICreditManager creditManagerburda hamisininnreferansini tutan ninterface var*/, List<ILoggerService> loggerServices)
         {
             //basvuran melumatlarinin deyerlendirilmesi
             //    MortageCreditManager mortageCreditManager1 = new MortageCreditManager();
             //    mortageCreditManager1.Calculate();//bunu etsek butun basvurulari mortage kredite baglamis oluruq diqqet! bu edilmemelidir dogru deyil
             //bura artig istediyimiz kreditit yollaya bilerik 
-            creditManager.Calculate(); 
+            //creditManager.Calculate();
+            //loggerServices.Log();
+            #region MultiLogger
+            foreach (var creditManager in creditManagers)
+            {
+                creditManager.Calculate();
+            }
+            foreach (var loggerService in loggerServices)
+            {
+                loggerService.Log();
+            }
+            #endregion MultiLogger
         }
         public void MakeALoanPreInformation(List<ICreditManager> credits /*parametr verdik*/ )//kredit on melumatlandirma
         {
