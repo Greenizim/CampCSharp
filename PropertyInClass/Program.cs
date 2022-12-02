@@ -7,4 +7,7 @@ customerManager.Update();
 ProductManager productManager = new ProductManager();
 productManager.Add();
 productManager.Update();
-#endregion Classes
+
+#region Property In Customer
+int a;
+#endregion Property In Customer
