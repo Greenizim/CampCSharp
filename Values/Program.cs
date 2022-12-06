@@ -1,4 +1,5 @@
-﻿/*
+﻿Console.WriteLine
+(/*
 *    1.              byte : Uzunluğu 1 byte’tır, 0 ile 255 arasında değer alır.         
 *    2.              sbyte : Uzunluğu 1 byte’tır, -128 ile 127 arasında değer alır.         
 *    3.              short : Uzunluğu 2 byte’tır, -32768 ile 32767 arasında değer alır.         
@@ -14,3 +15,4 @@
 *    13.              string : Tek bir karakter, sözcük veya cümle gibi değerlerin saklanmasında kullanılır.         
 *    14.              boolean : True – false değer tutan tiptir.
 */
+);
